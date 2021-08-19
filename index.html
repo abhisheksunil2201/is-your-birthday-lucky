@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Is Your Birthday Lucky?</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    />
+  </head>
+
+  <body>
+    <div class="app">
+      <div class="parallax">
+        <div class="full-height">
+          <section class="section">
+            <div class="title">
+              <h1>Is Your Birthday Lucky?</h1>
+            </div>
+          </section>
+        </div>
+        <div class="full-height">
+          <section class="section">
+            <div id="alertBox">
+              <div class="notice">
+                <strong>Privacy Notice!</strong> We are not storing your data.
+              </div>
+
+              <div
+                id="crossIcon"
+                style="padding-left: 1rem; font-size: 1rem; cursor: pointer"
+              >
+                <i style="pointer-events: none" class="fas fa-times"></i>
+              </div>
+            </div>
+            <h2>Enter Your Birthdate and lucky number to continue...</h2>
+            <form id="form">
+              <label class="label" for="datePicker">
+                Select your Birth date:
+              </label>
+              <input id="datePicker" type="date" />
+              <label class="label" for="luckyNumber">
+                Enter your Lucky Number:
+              </label>
+              <input
+                class="shadowAround"
+                id="luckyNumber"
+                min="1"
+                step="1"
+                required
+                type="number"
+              />
+              <button type="submit">check</button>
+            </form>
+
+            <div class="output"></div>
+          </section>
+        </div>
+        <section class="section" id="footer">
+          <footer>
+            <ul>
+              <li class="footerLink">
+                <a href="https://github.com/abhisheksunil2201">
+                  <i class="fab fa-github" aria-hidden="true"></i>
+                </a>
+              </li>
+              <li class="footerLink">
+                <a href="https://twitter.com/iamabhi2201">
+                  <i class="fab fa-twitter"></i>
+                </a>
+              </li>
+              <li class="footerLink">
+                <a href="https://www.linkedin.com/in/abhishek-2201/">
+                  <i class="fab fa-linkedin-in"></i>
+                </a>
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
