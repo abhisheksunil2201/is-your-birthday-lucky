@@ -1,5 +1,5 @@
-const outputPass = `<div class="label">Hurray!!You are a lucky person!</div><img width="13rem" height="200px" src="./yes.png" alt="image">`;
-const outputFail = `<div class="label">Oops!!Your birthday is not a lucky number!</div><img width="13rem" height="200px" src="./no.png" alt="image">`;
+const outputPass = `<div class="label">Hurray!!You are a lucky person!</div><img class="outputImg" height="200px" src="./yes.png" alt="image">`;
+const outputFail = `<div class="label">Oops!!Your birthday is not a lucky number!</div><img class="outputImg" height="200px" src="./no.png" alt="image">`;
 
 const alertCloseIcon = document.querySelector("#crossIcon");
 const alertBoxDiv = document.querySelector("#alertBox");

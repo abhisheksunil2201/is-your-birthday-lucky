@@ -121,3 +121,6 @@ button:hover {
   padding: 1.5rem 1rem 1rem;
   font-size: 1.1rem;
 }
+.outputImg {
+  width: 13rem;
+}
